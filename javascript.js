@@ -233,7 +233,7 @@ function spawnObstacle(score){
     power1Present = true;
   }
 
-  if(gameSpeed>=4 && flip%10==0 && power2Present == false){
+  if(gameSpeed>=6 && flip%10==0 && power2Present == false){
     
     var obstacle = new Obstacles('powerSlow', 200 + size + totsize, powerPosition, 40, 40, '#32CD32');
     power2Present = true;
