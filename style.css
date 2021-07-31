@@ -1,0 +1,103 @@
+body {
+    margin:0px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+
+}
+#canvas {
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px
+}
+
+
+
+#score {
+    display:inline;
+    padding:5px;
+    padding-right :200px;
+    position:absolute;
+    top:20px;
+    left:10px;
+    border-radius:5px;
+    color:lightgray;
+    font-size: 20px;
+    font-family :'Times New Roman', Times, serif
+
+}
+#highscore {
+    display:inline;
+    position:absolute;
+    top:20px;
+    left:200px;
+    padding:5px;
+    padding-right: 200px;
+    border-radius:5px;
+    color:lightgray;
+    font-size: 20px;
+    font-family :'Times New Roman', Times, serif;
+
+}
+#power1 {
+    display:inline;
+    position:absolute;
+    top:20px;
+    right:20px;
+    padding:5px;
+    padding-top:0px;
+    width : 50px;
+    height :50px;
+    border-radius:100px;
+    visibility:hidden;
+    backGround-color : #FFD700;
+    text-align:center;
+    border:3px solid white;
+    color:black;
+    font-size: 40px;
+    font-family :Georgia, 'Times New Roman', Times, serif
+}
+#power2 {
+    display:inline;
+    position:absolute;
+    top:20px;
+    right:90px;
+    padding:5px;
+    padding-top:0px;
+    width : 50px;
+    height :50px;
+    border-radius:100px;
+    visibility:hidden;
+    backGround-color : #32CD32;
+    text-align:center;
+    border:3px solid white;
+    color:black;
+    font-size: 40px;
+    font-family :Georgia, 'Times New Roman', Times, serif
+}
+#start {
+    display:inline;
+    position:absolute;
+    top:250px;
+    left:450px;
+    cursor:pointer;
+    padding:5px;
+    padding-top:10px;
+    width : 250px;
+    height :50px;
+    border-radius:50px;
+    visibility:visible;
+    backGround-color : black;
+    text-align:center;
+    color:red;
+    font-size: 40px;
+    font-family :Georgia, 'Times New Roman', Times, serif
+}
+#start:hover {
+    border : 2px solid white;
+
+}
